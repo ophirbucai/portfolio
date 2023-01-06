@@ -1,0 +1,105 @@
+{
+  "projects": [
+    {
+      "title": "Developer Dashboard",
+      "description": "Multiple page dashboard for monitoring the performance of applications, creating payment plans, and viewing purchase details.",
+      "links": [
+        {
+          "label": "Developer Dashboard",
+          "href": "https://www.commoninja.com/developer/apps"
+        }
+      ]
+    },
+    {
+      "title": "Product Blobs",
+      "description": "Created a gallery for commerce sites in special shapes with animation using SVG",
+      "links": [
+        {
+          "label": "Team Members",
+          "href": "https://www.commoninja.com/team-members"
+        },
+        {
+          "label": "Product Blobs",
+          "href": "https://www.commoninja.com/product-blobs"
+        }
+      ]
+    },
+    {
+      "title": "Notification/Coupon Bar",
+      "description": "Developed a notification bar and coupon bar for announcing discounts or announcements",
+      "links": [
+        {
+          "label": "Notification Bar",
+          "href": "https://www.commoninja.com/notification-bar"
+        },
+        {
+          "label": "Coupon Bar",
+          "href": "https://www.commoninja.com/coupon-bar"
+        }
+      ]
+    },
+    {
+      "title": "Corner Button",
+      "description": "Created a corner button for the same purpose with different visibility",
+      "links": [
+        {
+          "label": "Corner Button",
+          "href": "https://www.commoninja.com/corner-button"
+        }
+      ]
+    },
+    {
+      "title": "Flip Cards",
+      "description": "Developed flip cards with rotating \"cards\" containing information and links, and additional plugins for different uses",
+      "links": [
+        {
+          "label": "Flip Cards",
+          "href": "https://www.commoninja.com/flip-cards"
+        },
+        {
+          "label": "Restaurants",
+          "href": "https://www.commoninja.com/restaurant-flip-cards/editor/content"
+        },
+        {
+          "label": "Branches",
+          "href": "https://www.commoninja.com/branch-flip-cards"
+        },
+        {
+          "label": "Team Members",
+          "href": "https://www.commoninja.com/team-member-flip-cards"
+        }
+      ]
+    },
+    {
+      "title": "Device Mockup",
+      "description": "Created a device mockup display",
+      "links": [
+        {
+          "label": "Device Mockup",
+          "href": "https://www.commoninja.com/device-mockup"
+        }
+      ]
+    },
+    {
+      "title": "Progress Bars/Circles",
+      "description": "Developed progress bars and progress circles",
+      "links": [
+        {
+          "label": "Progress Bars",
+          "href": "https://www.commoninja.com/progress-bars"
+        },
+        {
+          "label": "Progress Circles",
+          "href": "https://www.commoninja.com/progress-circles"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "description": "Improved the performance, flexibility, and responsive design of the main website",
+      "links": [
+        { "label": "Main Website", "href": "https://www.commoninja.com/" }
+      ]
+    }
+  ]
+}
