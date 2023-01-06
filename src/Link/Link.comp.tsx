@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { LinkStyled, ListItemStyled } from "../components";
-import { TProjectLink } from "../types";
+import { Link } from "../types";
 
-export function Link({ href, target, label }: TProjectLink) {
+export function Link({ href, target, label }: Link) {
   return (
     <ListItemStyled>
       <LinkStyled
@@ -15,17 +15,4 @@ export function Link({ href, target, label }: TProjectLink) {
       </LinkStyled>
     </ListItemStyled>
   );
-}
-
-{
-  /* <div>
-  {links.map((link, idx) => (
-    <Link
-      href={link}
-      key={`project__link_${idx}`}
-      label={`${idx + 1}`}
-      target="_blank"
-    ></Link>
-  ))}
-</div>; */
 }
