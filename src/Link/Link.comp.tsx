@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import { LinkStyled, ListItemStyled } from "../components";
 import { Link } from "../types";
 
