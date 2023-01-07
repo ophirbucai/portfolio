@@ -1,9 +1,11 @@
 import React from "react";
 import WebFont from "webfontloader";
 
-type LoadFonts = (fonts: string[]) => void;
+type FontsLoader = {
+  loadFonts(fonts: string[]): void;
+};
 
-export function useFontsLoader(webFonts: string[]): [LoadFonts] {
+export function useFontsLoader(webFonts: string[]): FontsLoader {
   const [loaded, setLoaded] = React.useState(webFonts);
 
   function loadFonts(fonts: string[]) {
@@ -18,5 +20,5 @@ export function useFontsLoader(webFonts: string[]): [LoadFonts] {
     });
   }, [loaded]);
 
-  return [loadFonts];
+  return { loadFonts };
 }
