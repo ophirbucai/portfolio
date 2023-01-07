@@ -8,7 +8,7 @@ import { theme } from "./components/theme";
 
 function App() {
   const [mode, setMode] = React.useState<Mode>(theme.mode);
-  const [loadFonts] = useFontsLoader(theme[theme.mode].webFonts);
+  const { loadFonts } = useFontsLoader(theme[theme.mode].webFonts);
 
   function selectMode(selected: Mode) {
     setMode(selected);
